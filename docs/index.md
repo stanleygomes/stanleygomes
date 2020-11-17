@@ -1,3 +1,3 @@
 Redirecting...
 
-<meta http-equiv="refresh" content="1; URL='http://dev.to/stanley'" />
+<meta http-equiv="refresh" content="1; URL='https://medium.com/stanleygomes'" />
