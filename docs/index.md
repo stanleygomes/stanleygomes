@@ -1,3 +1,3 @@
 Redirecting...
 
-<meta http-equiv="refresh" content="1; URL='https://solo.to/stanleygomes'" />
+<meta http-equiv="refresh" content="1; URL='https://dev.to/stanley'" />
