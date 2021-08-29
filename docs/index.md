@@ -1,3 +1,3 @@
 Redirecting...
 
-<meta http-equiv="refresh" content="1; URL='http://lightroom.adobe.com/gallery/c325eb0a053e4bffa1ea9e2dbfc91a03'" />
+<meta http-equiv="refresh" content="1; URL='http://dev.to/stanley'" />
