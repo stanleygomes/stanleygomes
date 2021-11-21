@@ -15,4 +15,6 @@ Here's my profile!
 
 ✝️ The Holy Bible - Latest version using React Native under the [Expo platform](https://expo.dev/), which developed in 2020. You can download it [here](https://play.google.com/store/apps/details?id=com.abibliasagrada.app)
 
+Do it! - This is a to do app of goals and tasks build with flutter v2, developed in the end of 2021. You can download it [here](https://play.google.com/store/apps/details?id=com.stanley.doit)
+
 ### Check out my open sources projects bellow 👇
