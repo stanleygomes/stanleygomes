@@ -11,7 +11,7 @@ Here's my profile!
 
 🙏 The Holy Bible - The first version using [native base](https://nativebase.io) and react native, developed in 2017. You can download it [here](https://play.google.com/store/apps/details?id=com.stanley.theholybible)
 
-🌿 Agricaph - This is the app I developed to my dad's consulting company, not open for public. Made using react native, started in 2020. You can download it [here](https://play.google.com/store/apps/details?id=com.agricaph.app)
+🌿 Agricaph - This is the app I developed to my dad's consulting company, not open for public. Built using react native, started in 2020. You can download it [here](https://play.google.com/store/apps/details?id=com.agricaph.app)
 
 ✝️ The Holy Bible - Latest version using React Native under the [Expo platform](https://expo.dev/), which developed in 2020. You can download it [here](https://play.google.com/store/apps/details?id=com.abibliasagrada.app)
 
