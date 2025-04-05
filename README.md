@@ -2,7 +2,7 @@
 
 Here's my profile!
 
-- I write about technology on my [blog](https://dev.to/stanle)
+- I write about technology on my [blog](https://dev.to/stanley)
 - This is my [Linkedin](https://www.linkedin.com/in/stanley-gomes) account
 
 ### Take a look at some mobile apps I developed:
