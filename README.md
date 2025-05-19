@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- I write about technology on my [blog](https://dev.to/stanley)
-- This is my [Linkedin](https://www.linkedin.com/in/stanley-gomes) account
+- I write about technology [here](https://dev.to/stanley)
+- Find me on [Linkedin](https://www.linkedin.com/in/stanley-gomes) account
 
 ### Check out my work bellow 👇
