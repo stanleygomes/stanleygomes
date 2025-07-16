@@ -1,3 +1,3 @@
 Loading...
 
-<meta http-equiv="refresh" content="1; URL='http://lightroom.adobe.com/shares/31e9598c1c4a4a77b3271a7ff11a43ed'" />
+<meta http-equiv="refresh" content="1; URL='https://github.com/stanleygomes'" />
