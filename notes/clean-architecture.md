@@ -17,4 +17,15 @@ Ou seja, cada classe, função ou módulo deve ser responsável por apenas uma c
 
 O objetivo não é criar um número absurdo de classes minúsculas, mas sim organizar o código de forma lógica, pensando em quem ou o quê motivaria uma mudança futura. Isso vai salvar muito tempo e dor de cabeça em qualquer projeto.
 
----
+## 🚪 Open/Closed Principle (OCP) – SOLID
+
+O Open/Closed Principle (Princípio Aberto/Fechado) é o segundo princípio do SOLID e diz que:
+
+> **“Entidades de software devem ser abertas para extensão, mas fechadas para modificação.”** 🛡️✨
+
+Ou seja, você deve conseguir adicionar novos comportamentos ao seu código sem precisar alterar o que já está funcionando. Isso deixa o sistema mais robusto e fácil de evoluir!
+
+### Como aplicar? 🤔
+
+- Use **polimorfismo** para permitir que diferentes implementações sejam usadas de forma intercambiável 🦸‍♂️
+- Utilize padrões de projeto como o **Strategy** para trocar comportamentos em tempo de execução 🧩
