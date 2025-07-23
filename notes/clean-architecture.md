@@ -1,3 +1,79 @@
+# POO – Programação Orientada a Objetos
+
+## 🧱 O que é POO?
+
+A Programação Orientada a Objetos (POO) é um paradigma de desenvolvimento que organiza o código em torno de **objetos**, que representam entidades do mundo real com propriedades (atributos) e comportamentos (métodos).
+
+### Principais conceitos:
+
+- **Classe:** Um "molde" ou estrutura que define os atributos e métodos de um objeto.
+- **Objeto:** Instância concreta de uma classe; é quem realmente executa as ações.
+- **Encapsulamento:** Proteger os dados internos do objeto, expondo apenas o necessário (usando, por exemplo, modificadores de acesso como `private` e métodos `get`/`set`).
+- **Herança:** Permite que uma classe herde características (métodos e atributos) de outra, facilitando o reuso de código.
+- **Polimorfismo:** Objetos diferentes podem ser tratados de forma genérica, permitindo múltiplas implementações para o mesmo método.
+- **Abstração:** Focar apenas nos aspectos essenciais de uma entidade, escondendo detalhes complexos.
+
+## 🤔 Por que usar POO?
+
+- Facilita a organização e manutenção do código
+- Permite reutilização de componentes
+- Torna o sistema mais escalável e flexível para mudanças
+- Ajuda a modelar problemas do mundo real de forma mais intuitiva
+
+## 💡 Motivações
+
+- Projetos grandes e complexos precisam de organização
+- Equipes conseguem trabalhar em paralelo desenvolvendo diferentes objetos
+- Testes unitários ficam mais simples e isolados
+- Reduz acoplamento entre partes do sistema
+
+## 🖥️ Exemplo simples em Java
+
+```java
+// classe base (abstração)
+public class Animal {
+    private String nome;
+
+    public Animal(String nome) {
+        this.nome = nome;
+    }
+
+    public void emitirSom() {
+        this.print();
+    }
+
+    // encapsulamento: protegendo um atributo
+    public String getNome() {
+        return nome;
+    }
+
+    // encapsulamento: protegendo um metodo
+    private void print() {
+        System.out.println("Som genérico...");
+    }
+}
+
+// Classe derivada (herança e polimorfismo)
+public class Cachorro extends Animal {
+    public Cachorro(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Au Au!");
+    }
+}
+
+// Uso dos objetos
+public class Main {
+    public static void main(String[] args) {
+        Animal animal1 = new Cachorro("Rex");
+        animal1.emitirSom(); // Saída: Au Au!
+    }
+}
+```
+
 # SOLID
 
 ## 🧩 [S]ingle Responsibility Principle (SRP)
