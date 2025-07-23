@@ -29,3 +29,46 @@ Ou seja, você deve conseguir adicionar novos comportamentos ao seu código sem 
 
 - Use **polimorfismo** para permitir que diferentes implementações sejam usadas de forma intercambiável 🦸‍♂️
 - Utilize padrões de projeto como o **Strategy** para trocar comportamentos em tempo de execução 🧩
+
+## 🧲 [L]iskov Substitution Principle (LSP)
+
+O Liskov Substitution Principle (Princípio da Substituição de Liskov) diz que:
+
+> **“Objetos de uma classe derivada devem poder substituir objetos da classe base sem alterar o funcionamento do programa.”** 🔄
+
+Ou seja, subclasses devem manter o comportamento esperado da classe base. Se uma subclasse quebra alguma regra ou expectativa, pode causar bugs difíceis de encontrar.
+
+### Por que é importante? 🤔
+
+- Garante a previsibilidade do sistema
+- Facilita o uso de herança e polimorfismo
+- Evita surpresas desagradáveis no código
+
+## 🛡️ [I]nterface Segregation Principle (ISP)
+
+O Interface Segregation Principle (Princípio da Segregação de Interface) diz que:
+
+> **“Nenhum cliente deve ser forçado a depender de métodos que não utiliza.”** 🧩
+
+Ou seja, é melhor ter várias interfaces pequenas e específicas do que uma interface grande e genérica. Isso torna o código mais limpo e fácil de manter.
+
+### Como aplicar? 🤔
+
+- Crie interfaces focadas em responsabilidades específicas
+- Evite interfaces “inchadas” com métodos desnecessários
+
+## 🏗️ [D]ependency Inversion Principle (DIP)
+
+O Dependency Inversion Principle (Princípio da Inversão de Dependência) diz que:
+
+> **“Dependa de abstrações, não de implementações concretas.”** 🏗️
+
+Ou seja, módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender de abstrações. Isso facilita testes, manutenção e evolução do sistema.
+
+### Como aplicar? 🤔
+
+- Use interfaces ou classes abstratas para definir contratos
+- Utilize injeção de dependência para conectar implementações
+- implementar logica das apis
+- quebrar o componente gigante em pedaços
+- criar testes unitarios
