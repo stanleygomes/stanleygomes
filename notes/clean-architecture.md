@@ -1,3 +1,7 @@
+# Clean architecture
+
+Um modelo de arquitetura de software que organiza o código em camadas separadas por responsabilidades, priorizando a independência da lógica de negócio em relação a frameworks, bancos de dados e interfaces externas.
+
 # POO – Programação Orientada a Objetos
 
 ## 🧱 O que é POO?
