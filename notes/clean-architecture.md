@@ -2,9 +2,14 @@
 
 Um modelo de arquitetura de software que organiza o código em camadas separadas por responsabilidades, priorizando a independência da lógica de negócio em relação a frameworks, bancos de dados e interfaces externas.
 
-# POO – Programação Orientada a Objetos
+## DDD (Domain Driven Design)
+O Domain-Driven Design (DDD) é uma abordagem de desenvolvimento de software que coloca o foco principal no domínio de negócio, modelando o software para refletir com precisão a lógica, as regras e os processos desse domínio em um modelo rico e coeso.
 
-## 🧱 O que é POO?
+Construir regras fortes nas entidades, aproximando essas regras das entidades.
+
+## POO – Programação Orientada a Objetos
+
+### 🧱 O que é POO?
 
 A Programação Orientada a Objetos (POO) é um paradigma de desenvolvimento que organiza o código em torno de **objetos**, que representam entidades do mundo real com propriedades (atributos) e comportamentos (métodos).
 
@@ -17,21 +22,21 @@ A Programação Orientada a Objetos (POO) é um paradigma de desenvolvimento que
 - **Polimorfismo:** Objetos diferentes podem ser tratados de forma genérica, permitindo múltiplas implementações para o mesmo método.
 - **Abstração:** Focar apenas nos aspectos essenciais de uma entidade, escondendo detalhes complexos.
 
-## 🤔 Por que usar POO?
+### 🤔 Por que usar POO?
 
 - Facilita a organização e manutenção do código
 - Permite reutilização de componentes
 - Torna o sistema mais escalável e flexível para mudanças
 - Ajuda a modelar problemas do mundo real de forma mais intuitiva
 
-## 💡 Motivações
+### 💡 Motivações
 
 - Projetos grandes e complexos precisam de organização
 - Equipes conseguem trabalhar em paralelo desenvolvendo diferentes objetos
 - Testes unitários ficam mais simples e isolados
 - Reduz acoplamento entre partes do sistema
 
-## 🖥️ Exemplo simples em Java
+### 🖥️ Exemplo simples em Java
 
 ```java
 // classe base (abstração)
@@ -78,9 +83,9 @@ public class Main {
 }
 ```
 
-# SOLID
+## SOLID
 
-## 🧩 [S]ingle Responsibility Principle (SRP)
+### 🧩 [S]ingle Responsibility Principle (SRP)
 
 O Single Responsibility Principle (Princípio da Responsabilidade Única) é o primeiro dos princípios SOLID e diz que:
 
@@ -97,7 +102,7 @@ Ou seja, cada classe, função ou módulo deve ser responsável por apenas uma c
 
 O objetivo não é criar um número absurdo de classes minúsculas, mas sim organizar o código de forma lógica, pensando em quem ou o quê motivaria uma mudança futura. Isso vai salvar muito tempo e dor de cabeça em qualquer projeto.
 
-## 🚪 [O]pen/Closed Principle (OCP)
+### 🚪 [O]pen/Closed Principle (OCP)
 
 O Open/Closed Principle (Princípio Aberto/Fechado) é o segundo princípio do SOLID e diz que:
 
@@ -105,12 +110,12 @@ O Open/Closed Principle (Princípio Aberto/Fechado) é o segundo princípio do S
 
 Ou seja, você deve conseguir adicionar novos comportamentos ao seu código sem precisar alterar o que já está funcionando. Isso deixa o sistema mais robusto e fácil de evoluir!
 
-### Como aplicar? 🤔
+**Como aplicar? 🤔**
 
 - Use **polimorfismo** para permitir que diferentes implementações sejam usadas de forma intercambiável 🦸‍♂️
 - Utilize padrões de projeto como o **Strategy** para trocar comportamentos em tempo de execução 🧩
 
-## 🧲 [L]iskov Substitution Principle (LSP)
+### 🧲 [L]iskov Substitution Principle (LSP)
 
 O Liskov Substitution Principle (Princípio da Substituição de Liskov) diz que:
 
@@ -118,13 +123,13 @@ O Liskov Substitution Principle (Princípio da Substituição de Liskov) diz que
 
 Ou seja, subclasses devem manter o comportamento esperado da classe base. Se uma subclasse quebra alguma regra ou expectativa, pode causar bugs difíceis de encontrar.
 
-### Por que é importante? 🤔
+**Por que é importante? 🤔**
 
 - Garante a previsibilidade do sistema
 - Facilita o uso de herança e polimorfismo
 - Evita surpresas desagradáveis no código
 
-## 🛡️ [I]nterface Segregation Principle (ISP)
+### 🛡️ [I]nterface Segregation Principle (ISP)
 
 O Interface Segregation Principle (Princípio da Segregação de Interface) diz que:
 
@@ -132,12 +137,12 @@ O Interface Segregation Principle (Princípio da Segregação de Interface) diz 
 
 Ou seja, é melhor ter várias interfaces pequenas e específicas do que uma interface grande e genérica. Isso torna o código mais limpo e fácil de manter.
 
-### Como aplicar? 🤔
+**Como aplicar? 🤔**
 
 - Crie interfaces focadas em responsabilidades específicas
 - Evite interfaces “inchadas” com métodos desnecessários
 
-## 🏗️ [D]ependency Inversion Principle (DIP)
+### 🏗️ [D]ependency Inversion Principle (DIP)
 
 O Dependency Inversion Principle (Princípio da Inversão de Dependência) diz que:
 
@@ -145,7 +150,7 @@ O Dependency Inversion Principle (Princípio da Inversão de Dependência) diz q
 
 Ou seja, módulos de alto nível não devem depender de módulos de baixo nível, ambos devem depender de abstrações. Isso facilita testes, manutenção e evolução do sistema.
 
-### Como aplicar? 🤔
+**Como aplicar? 🤔**
 
 - Use interfaces ou classes abstratas para definir contratos
 - Utilize injeção de dependência para conectar implementações
