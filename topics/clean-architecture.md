@@ -5,7 +5,7 @@ Um modelo de arquitetura de software que organiza o código em camadas separadas
 ## DDD (Domain Driven Design)
 O Domain-Driven Design (DDD) é uma abordagem de desenvolvimento de software que coloca o foco principal no domínio de negócio, modelando o software para refletir com precisão a lógica, as regras e os processos desse domínio em um modelo rico e coeso.
 
-Construir regras fortes nas entidades, aproximando essas regras das entidades.
+Construir regras fortes nas entidades, aproximando essas regras das entidades. Esse modelo requer que as regras e comportamentos de negócio seja implementados na entidade, e apenas regras compartilhadas por entidades fiquem espalhadas em outras classes de serviço, por exemplo. Esse é o modelo de entidade rica, o contrário de entidade anêmica.
 
 ## POO – Programação Orientada a Objetos
 
