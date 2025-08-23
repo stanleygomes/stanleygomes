@@ -1,6 +1,8 @@
 # Clean architecture
 
-Um modelo de arquitetura de software que organiza o código em camadas separadas por responsabilidades, priorizando a independência da lógica de negócio em relação a frameworks, bancos de dados e interfaces externas.
+Um conjunto de princípios de arquitetura de software que requer o código em camadas separadas por responsabilidades, priorizando a independência da lógica de negócio em relação a frameworks, bancos de dados e interfaces externas.
+
+Os modelos de arquitetura hexagonal (port and adapters) e onion implementam regras que atendem esses pricípios. Também é possível implementar outros modelos de arquitetura seguindo esses princípios.
 
 ## DDD (Domain Driven Design)
 O Domain-Driven Design (DDD) é uma abordagem de desenvolvimento de software que coloca o foco principal no domínio de negócio, modelando o software para refletir com precisão a lógica, as regras e os processos desse domínio em um modelo rico e coeso.
