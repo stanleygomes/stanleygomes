@@ -16,6 +16,7 @@ Design patterns são soluções reutilizáveis para problemas comuns no desenvol
 - [Composite 🌳](#composite) \- Estruturas de árvore parte-todo.
 - [Decorator 🎁](#decorator) \- Adiciona funcionalidades dinamicamente.
 - [Mediator 🤝](#mediator) \- Comunicação centralizada entre objetos.
+- [Abstract Factory 🏭](#abstract-factory) \- Famílias de objetos relacionados.
 
 
 ### Singleton 🏢
@@ -664,6 +665,97 @@ public class Main {
         PedidoMediator mediator = new PedidoMediatorImpl(pagamento, estoque, notificador);
 
         mediator.processarPedido("12345");
+    }
+}
+```
+
+### Abstract Factory 🏭
+
+O padrão Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. É útil quando você precisa garantir que produtos de uma família sejam usados juntos.
+
+```java
+// Produtos abstratos
+interface NotificationSender {
+    void send(String message);
+}
+
+interface Logger {
+    void log(String message);
+}
+
+// Família de produtos para Email
+class EmailSender implements NotificationSender {
+    public void send(String message) {
+        System.out.println("Email enviado: " + message);
+    }
+}
+
+class EmailLogger implements Logger {
+    public void log(String message) {
+        System.out.println("Log por email: " + message);
+    }
+}
+
+// Família de produtos para SMS
+class SMSSender implements NotificationSender {
+    public void send(String message) {
+        System.out.println("SMS enviado: " + message);
+    }
+}
+
+class SMSLogger implements Logger {
+    public void log(String message) {
+        System.out.println("Log por SMS: " + message);
+    }
+}
+
+// Abstract Factory
+interface CommunicationFactory {
+    NotificationSender createSender();
+    Logger createLogger();
+}
+
+// Factories concretas
+class EmailFactory implements CommunicationFactory {
+    public NotificationSender createSender() { return new EmailSender(); }
+    public Logger createLogger() { return new EmailLogger(); }
+}
+
+class SMSFactory implements CommunicationFactory {
+    public NotificationSender createSender() { return new SMSSender(); }
+    public Logger createLogger() { return new SMSLogger(); }
+}
+```
+
+```java
+// Cliente que usa a factory
+public class NotificationService {
+    private NotificationSender sender;
+    private Logger logger;
+    
+    public NotificationService(CommunicationFactory factory) {
+        this.sender = factory.createSender();
+        this.logger = factory.createLogger();
+    }
+    
+    public void processNotification(String message) {
+        logger.log("Processando: " + message);
+        sender.send(message);
+    }
+}
+
+// Main para testar
+public class Main {
+    public static void main(String[] args) {
+        // Usando família Email
+        CommunicationFactory emailFactory = new EmailFactory();
+        NotificationService emailService = new NotificationService(emailFactory);
+        emailService.processNotification("Pedido confirmado!");
+        
+        // Usando família SMS
+        CommunicationFactory smsFactory = new SMSFactory();
+        NotificationService smsService = new NotificationService(smsFactory);
+        smsService.processNotification("Código de verificação");
     }
 }
 ```
