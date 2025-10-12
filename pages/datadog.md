@@ -10,7 +10,3 @@ Certificados de minicursos da Datadog, focados em Observabilidade e monitorament
 * [Getting Started with Metrics](https://learn.datadoghq.com/certificates/anzcqtyxd0)
 * [Tagging Best Practices](https://learn.datadoghq.com/certificates/wtwpdu95ur)
 * [Datadog Quick Start](https://learn.datadoghq.com/certificates/a6c0o2uv8r)
-
----
-
-#Observabilidade #Datadog #Desenvolvimento #SoftwareDeveloper 💻
