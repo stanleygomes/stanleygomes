@@ -7,3 +7,5 @@ In the field since 2012. Native Brazilian Portuguese | English reading & compreh
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://br.linkedin.com/in/stanley-gomes)  
 ✉️ stanley.gomes@icloud.com
+
+For in this hope we were saved. But hope that is seen is no hope at all. Who hopes for what they already have? - Romans 8:24
