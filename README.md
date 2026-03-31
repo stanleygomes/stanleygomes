@@ -7,5 +7,3 @@ In the field since 2012. Native Brazilian Portuguese | English reading & compreh
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://br.linkedin.com/in/stanley-gomes)  
 ✉️ stanley.gomes@icloud.com
-
-Check out some of my work bellow 👇
