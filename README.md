@@ -1,5 +1,3 @@
-## Hi there 👋
-
 Senior backend developer on the e-commerce and stores services team at Magazine Luiza.
 
 Backend-focused developer (with experience on frontend) with DevOps experience — PHP/Java/Node.js/Kotlin; AngularJS and React.
