@@ -1,3 +1,0 @@
-Loading...
-
-<meta http-equiv="refresh" content="1; URL='https://github.com/stanleygomes'" />
