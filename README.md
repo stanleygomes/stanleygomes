@@ -1,7 +1,9 @@
 Senior backend developer on the e-commerce and stores services team at Magazine Luiza.
 
-Backend-focused developer (with experience on frontend) with DevOps experience — PHP/Java/Node.js/Kotlin; AngularJS and React.
+Backend-focused developer (with experience on frontend) with DevOps experience — PHP/Java/Node.js/Kotlin; React.
 In the field since 2012. Native Brazilian Portuguese | English reading & comprehension fluent ([C2](https://www.efset.org/cert/sm2uwZ?trk=public_profile_see-credential))
+
+I have also explored several other stacks, including Flutter, React Native, Ionic Framework, and Python. You can find many of these projects in my legacy repository: [catacombs](https://github.com/stanleygomes/catacombs).
 
 ---
 
