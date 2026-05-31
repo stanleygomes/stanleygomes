@@ -10,4 +10,4 @@ I have also explored several other stacks, including Flutter, React Native, Ioni
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://br.linkedin.com/in/stanley-gomes)  
 ✉️ stanley.gomes@icloud.com
 
-_- For in this hope we were saved. But hope that is seen is no hope at all. Who hopes for what they already have? - Romans 8:24_
+_- Commit to the Lord whatever you do, and he will establish your plans. - Proverbs 16:3_
