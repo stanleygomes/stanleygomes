@@ -1,13 +1,13 @@
-Senior backend developer on the e-commerce and stores services team, crafting the new services platform, at Magazine Luiza.
+Desenvolvedor sênior na equipe de serviços de e-commerce e lojas, construindo a nova plataforma de serviços no Magazine Luiza.
 
-Full stack developer (with experience on frontend) with DevOps experience — PHP/Java/Node.js/Kotlin; React.
-In the field since 2012. Native Brazilian Portuguese | English reading & comprehension fluent ([C2](https://www.efset.org/cert/sm2uwZ?trk=public_profile_see-credential))
+Full stack e vivência em DevOps — PHP/Java/Node.js/Kotlin; React. Na área desde 2012. Português nativo | Leitura e compreensão fluentes em inglês ([C2](https://www.efset.org/cert/sm2uwZ?trk=public_profile_see-credential)).
 
-I have also explored several other stacks, including Flutter, React Native, Ionic Framework, and Python.
+Também já explorei diversas outras tecnologias, incluindo Flutter, React Native, Ionic Framework e Python
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://br.linkedin.com/in/stanley-gomes)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://br.linkedin.com/in/stanley-gomes)
+
 ✉️ stanley.gomes@icloud.com
 
-_- Commit to the Lord whatever you do, and he will establish your plans. - Proverbs 16:3_
+_- Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos. - Provérbios 16:3_
